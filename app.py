@@ -31,6 +31,8 @@ client1.on_message = on_message
 
 
 st.title("MQTT Control")
+st.write("🎨 JVP")
+st.write("Enciende y transmite valores a una conexión MQTT")
 
 if st.button('ON'):
     act1="ON"
